@@ -1,3 +1,4 @@
+import os
 import telebot
 import psutil as ps
 import time
@@ -6,7 +7,7 @@ from datetime import date
 
 
 
-TOKEN = "***REMOVED***"
+TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]  # set in your shell or a .env file
 tb = telebot.TeleBot(TOKEN)
 
 
