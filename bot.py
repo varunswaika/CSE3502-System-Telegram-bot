@@ -18,7 +18,7 @@ MIN = 60
 HOUR = 60 * 60
 DAY = 60 * 60 * 24
 
-BOT_INFO = "This is a BOT created by Varun Agarwal 19BCT0070 for ISAA Theory DA."
+BOT_INFO = "This is a BOT created by Varun Agarwal for ISAA Theory DA."
 
 @tb.message_handler(commands=['info'])
 def send_info(msg):
