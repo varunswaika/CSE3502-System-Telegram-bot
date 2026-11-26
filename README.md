@@ -1,5 +1,7 @@
 # System Monitoring Telegram Bot
 
+> **Archived.** No longer maintained. This repository is kept as a record and is read-only.
+
 A Python Telegram bot that reports the host machine's uptime, CPU, memory, disk and network details on command, and logs each reply to a local MongoDB database.
 
 ## Why it is interesting
